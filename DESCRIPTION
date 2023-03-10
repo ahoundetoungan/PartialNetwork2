@@ -1,0 +1,18 @@
+Package: PartialNetwork2
+Encoding: UTF-8
+Version: 0.0.1
+Type: Package
+Title: A Maximum Likelihood Approach to Estimating Peer Effects Using Partial Network Data
+Date: 2023-03-01
+Authors@R: c(person("Elysee Aristide", "Houndetoungan",  role = c("cre","aut"), email =  "ariel92and@gmail.com"))
+Description: Implements a peudo Maximum likelihood for the linear-in-mean peer effect model with group heterogeneity under partial network data.
+License: GPL-3
+BugReports: https://github.com/ahoundetoungan/PartialNetwork2/issues
+URL: https://github.com/ahoundetoungan/PartialNetwork2
+LazyData: true
+Depends: R (>= 3.5.0)
+Imports: Rcpp (>= 1.0.0), utils, Formula, formula.tools, parallel, doParallel, foreach, doRNG
+LinkingTo: Rcpp, RcppArmadillo
+RoxygenNote: 7.2.3
+Roxygen: list(markdown = TRUE)
+Suggests: PartialNetwork, CDatanet
